@@ -1,0 +1,632 @@
+{
+  "platform": "gatsby",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../static",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "deKwkoK4pA1w3jYaAefVBE",
+      "projectApiToken": "1LcHOAi1UUComoOIRVRNoQrTJCNdIct1I3t0U8JMhW5snPqnza5cPGkPCobFHVyK8jmGVvWSCGUgX7H5jjcw",
+      "projectName": "Netra",
+      "version": "latest",
+      "cssFilePath": "plasmic/netra/plasmic_netra.module.css",
+      "components": [
+        {
+          "id": "S3xOQUULWLqz-",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "BzFeYtaDPGuPG",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "IZ7cmxqWjCYvg",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicHeader.jsx",
+          "importSpec": {
+            "modulePath": "Header.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "rUgGjC8cM1U1l",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "1_AoDTejJueIFc",
+          "name": "Services",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicServices.jsx",
+          "importSpec": {
+            "modulePath": "../pages/Services.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicServices.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "tu75SPTPNjm57x",
+          "name": "Stories",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicStories.jsx",
+          "importSpec": {
+            "modulePath": "../pages/stories.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicStories.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Gi0R8Il596DPNa",
+          "name": "AboutUs",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicAboutUs.jsx",
+          "importSpec": {
+            "modulePath": "../pages/about.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicAboutUs.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "d8bL9Y2_gRt_he",
+          "name": "ContactUs",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicContactUs.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contact.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicContactUs.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "7_QVl897eB3MHy",
+          "name": "Story",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicStory.jsx",
+          "importSpec": {
+            "modulePath": "../pages/story.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicStory.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Q16YjPEYk5yNyA",
+          "name": "Testimonial",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicTestimonial.jsx",
+          "importSpec": {
+            "modulePath": "Testimonial.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicTestimonial.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "v9iiG2M953HZOc",
+          "name": "ServicesWhite",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicServicesWhite.jsx",
+          "importSpec": {
+            "modulePath": "ServicesWhite.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicServicesWhite.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "q_9J07FjKI49cH",
+          "name": "CtaBottom",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicCtaBottom.jsx",
+          "importSpec": {
+            "modulePath": "CtaBottom.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicCtaBottom.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "WpjxXuLMQkn-2l",
+          "name": "CaseStudiesWraper",
+          "type": "managed",
+          "projectId": "deKwkoK4pA1w3jYaAefVBE",
+          "renderModuleFilePath": "plasmic/netra/PlasmicCaseStudiesWraper.jsx",
+          "importSpec": {
+            "modulePath": "CaseStudiesWraper.jsx"
+          },
+          "cssFilePath": "plasmic/netra/PlasmicCaseStudiesWraper.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "7e8vQErGRdFRxV",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "nVVCS8rw2_l-_S",
+          "name": "FacebookIconsvgIcon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__FacebookIconsvg.jsx"
+        },
+        {
+          "id": "d1F840sVLom6Mq",
+          "name": "InstagramIconsvgIcon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__InstagramIconsvg.jsx"
+        },
+        {
+          "id": "q8RSDI71ifmvHI",
+          "name": "TwitterIconsvgIcon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__TwitterIconsvg.jsx"
+        },
+        {
+          "id": "IgQlLs2PQZivgr",
+          "name": "Icon8Icon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__Icon8.jsx"
+        },
+        {
+          "id": "Y-9MHhtdATSnQF",
+          "name": "Icon13Icon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__Icon13.jsx"
+        },
+        {
+          "id": "c1GADTv9fhR8S5",
+          "name": "Icon10Icon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__Icon10.jsx"
+        },
+        {
+          "id": "Ug2RGu2eumircN",
+          "name": "Icon11Icon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__Icon11.jsx"
+        },
+        {
+          "id": "N54HoqGP4VcoPc",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__Icon3.jsx"
+        },
+        {
+          "id": "ElGSs9AuHMLhTU",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "0DmeRTl_cL90bI",
+          "name": "Icon28Icon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__Icon28.jsx"
+        },
+        {
+          "id": "sotM-oLTv4PQoT",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "z-NBm6ScN4CX2I",
+          "name": "LogoPlasmicNewsvg2Icon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__LogoPlasmicNewsvg2.jsx"
+        },
+        {
+          "id": "CTv1HG4Rb76vD3",
+          "name": "ShapeNew1Tracedsvg2Icon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__ShapeNew1Tracedsvg2.jsx"
+        },
+        {
+          "id": "KShInrsyWaflUh",
+          "name": "LoactionVectorsvgIcon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__LoactionVectorsvg.jsx"
+        },
+        {
+          "id": "RxipPuPCnHkGl7",
+          "name": "PhoneVectorsvgIcon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__PhoneVectorsvg.jsx"
+        },
+        {
+          "id": "WQ52TjU0YmHFxm",
+          "name": "EmailVectorsvgIcon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__EmailVectorsvg.jsx"
+        },
+        {
+          "id": "OQdjdACrVYB2qJ",
+          "name": "Icon17Icon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__Icon17.jsx"
+        },
+        {
+          "id": "Ef5GQ04R83kK-I",
+          "name": "Icon16Icon",
+          "moduleFilePath": "plasmic/netra/icons/PlasmicIcon__Icon16.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "vBFV-6T-yITV_-",
+          "name": "logo.svg",
+          "filePath": "plasmic/netra/images/logosvg.svg"
+        },
+        {
+          "id": "UCfONxlonq0rtK",
+          "name": "airbnb.svg",
+          "filePath": "plasmic/netra/images/airbnbsvg.svg"
+        },
+        {
+          "id": "nu43L5QVBdoC-o",
+          "name": "asana.svg",
+          "filePath": "plasmic/netra/images/asanasvg.svg"
+        },
+        {
+          "id": "0VwrrxHYjE83Fh",
+          "name": "disney.svg",
+          "filePath": "plasmic/netra/images/disneysvg.svg"
+        },
+        {
+          "id": "ZfyjzbpmMtoIdy",
+          "name": "dropbox.svg",
+          "filePath": "plasmic/netra/images/dropboxsvg.svg"
+        },
+        {
+          "id": "bPYT-nYXoI9SAr",
+          "name": "instacart.svg",
+          "filePath": "plasmic/netra/images/instacartsvg.svg"
+        },
+        {
+          "id": "xZvCd-wJbI75Ln",
+          "name": "lyft.svg",
+          "filePath": "plasmic/netra/images/lyftsvg.svg"
+        },
+        {
+          "id": "N7D-XZnxPaRrnt",
+          "name": "samsung.svg",
+          "filePath": "plasmic/netra/images/samsungsvg.svg"
+        },
+        {
+          "id": "qPxbFLDg-yBmXb",
+          "name": "spotify.svg",
+          "filePath": "plasmic/netra/images/spotifysvg.svg"
+        },
+        {
+          "id": "sonD8VzzbBQJfS",
+          "name": "tesla.svg",
+          "filePath": "plasmic/netra/images/teslasvg.svg"
+        },
+        {
+          "id": "AbKaKNKlkLhpZX",
+          "name": "google.svg",
+          "filePath": "plasmic/netra/images/googlesvg.svg"
+        },
+        {
+          "id": "kbuuBd1w9iQC8L",
+          "name": "CocaCola.svg",
+          "filePath": "plasmic/netra/images/cocaColasvg.svg"
+        },
+        {
+          "id": "RLwcsNS3rrTPIs",
+          "name": "Publix.svg",
+          "filePath": "plasmic/netra/images/publixsvg.svg"
+        },
+        {
+          "id": "ygx0Ph_qVUfqRQ",
+          "name": "woman-testimonial.jpg",
+          "filePath": "plasmic/netra/images/womanTestimonialjpg.jpeg"
+        },
+        {
+          "id": "CU0E6MaUSVplGz",
+          "name": "photo-women-talking.jpg",
+          "filePath": "plasmic/netra/images/photoWomenTalkingjpg.jpeg"
+        },
+        {
+          "id": "o6yNW-tH-cFxoc",
+          "name": "photo-woman-laptop.jpg",
+          "filePath": "plasmic/netra/images/photoWomanLaptopjpg.jpeg"
+        },
+        {
+          "id": "ANrCSDQJKunl23",
+          "name": "icon-digital.svg",
+          "filePath": "plasmic/netra/images/iconDigitalsvg.svg"
+        },
+        {
+          "id": "7Bx_jDKCqjAbzd",
+          "name": "icon-analytics.svg",
+          "filePath": "plasmic/netra/images/iconAnalyticssvg.svg"
+        },
+        {
+          "id": "GB9f3XC3PMboOq",
+          "name": "icon-consulting.svg",
+          "filePath": "plasmic/netra/images/iconConsultingsvg.svg"
+        },
+        {
+          "id": "hd_OJ01a2jP6Aw",
+          "name": "icon-hiring.svg",
+          "filePath": "plasmic/netra/images/iconHiringsvg.svg"
+        },
+        {
+          "id": "CsEbiTo5NhtwKg",
+          "name": "icon-accounting.svg",
+          "filePath": "plasmic/netra/images/iconAccountingsvg.svg"
+        },
+        {
+          "id": "63r--JQ0Dr8pgy",
+          "name": "icon-strategy.svg",
+          "filePath": "plasmic/netra/images/iconStrategysvg.svg"
+        },
+        {
+          "id": "ODw1eOY6zzXkAh",
+          "name": "photo-1.jpg",
+          "filePath": "plasmic/netra/images/photo1Jpg.jpeg"
+        },
+        {
+          "id": "5NZF_l42Y5wC6h",
+          "name": "photo-2.jpg",
+          "filePath": "plasmic/netra/images/photo2Jpg.jpeg"
+        },
+        {
+          "id": "tsN-PELlDdFfTm",
+          "name": "photo-3.jpg",
+          "filePath": "plasmic/netra/images/photo3Jpg.jpeg"
+        },
+        {
+          "id": "HS-5VNPNNUf-49",
+          "name": "photo-4.jpg",
+          "filePath": "plasmic/netra/images/photo4Jpg.jpeg"
+        },
+        {
+          "id": "f-Z9Q1Xeru2rgp",
+          "name": "icon-analytics.svg 2",
+          "filePath": "plasmic/netra/images/iconAnalyticssvg2.svg"
+        },
+        {
+          "id": "c1LAhhs2J48jpa",
+          "name": "icon-consulting.svg 2",
+          "filePath": "plasmic/netra/images/iconConsultingsvg2.svg"
+        },
+        {
+          "id": "62DIiSw0B_I9oc",
+          "name": "icon-hiring.svg 2",
+          "filePath": "plasmic/netra/images/iconHiringsvg2.svg"
+        },
+        {
+          "id": "Z1FiwqDdhQ4R3m",
+          "name": "icon-accounting.svg 2",
+          "filePath": "plasmic/netra/images/iconAccountingsvg2.svg"
+        },
+        {
+          "id": "S0tPC0R9jr9eid",
+          "name": "icon-strategy.svg 2",
+          "filePath": "plasmic/netra/images/iconStrategysvg2.svg"
+        },
+        {
+          "id": "vq-obaLZZbCl-b",
+          "name": "img-women-working.jpg",
+          "filePath": "plasmic/netra/images/imgWomenWorkingjpg.jpeg"
+        },
+        {
+          "id": "Ez2iwVb0TkR67c",
+          "name": "techno-female-portrait-science-technology-concept-72928195.jpg",
+          "filePath": "plasmic/netra/images/technoFemalePortraitScienceTechnologyConcept72928195Jpg.jpeg"
+        },
+        {
+          "id": "1iP5OSZtbyNdsr",
+          "name": "98e4c6132824f02507d64f43dd38e3e8.jpg",
+          "filePath": "plasmic/netra/images/_98E4C6132824F02507D64F43Dd38E3E8Jpg.jpeg"
+        },
+        {
+          "id": "LY4ofeD79uSmHZ",
+          "name": "video.jpg",
+          "filePath": "plasmic/netra/images/videojpg.jpeg"
+        },
+        {
+          "id": "3KGo5GfCMqluMf",
+          "name": "team-1.jpg",
+          "filePath": "plasmic/netra/images/team1Jpg.jpeg"
+        },
+        {
+          "id": "zpeXuNLlLLtLQa",
+          "name": "woman-testimonial.jpg 2",
+          "filePath": "plasmic/netra/images/womanTestimonialjpg2.jpeg"
+        },
+        {
+          "id": "uYljfeIiE7l2sh",
+          "name": "CODERED_B1_portrait_photography-P4a_438x447.jpg.img.jpg",
+          "filePath": "plasmic/netra/images/coderedB1PortraitPhotographyP4A438X447Jpgimgjpg.jpeg"
+        },
+        {
+          "id": "9Syp8oKyA5qZJy",
+          "name": "download.jpg",
+          "filePath": "plasmic/netra/images/downloadjpg.jpeg"
+        },
+        {
+          "id": "8W1wOWpsRMb4o_",
+          "name": "Headshot-Photography-London-1052.jpeg",
+          "filePath": "plasmic/netra/images/headshotPhotographyLondon1052Jpeg.jpeg"
+        },
+        {
+          "id": "as0HNIrI2HUueZ",
+          "name": "photo-1534528741775-53994a69daeb.jpg",
+          "filePath": "plasmic/netra/images/photo153452874177553994A69Daebjpg.jpeg"
+        },
+        {
+          "id": "XRs3BLpaCimmsf",
+          "name": "portrait-white-man-isolated_53876-40306.jpg",
+          "filePath": "plasmic/netra/images/portraitWhiteManIsolated5387640306Jpg.jpeg"
+        },
+        {
+          "id": "Ic_5UL3kpCr2tk",
+          "name": "istockphoto-1319763895-170667a.jpg",
+          "filePath": "plasmic/netra/images/istockphoto1319763895170667Ajpg.jpeg"
+        },
+        {
+          "id": "bQBlOpLVDjBAUY",
+          "name": "360_F_222851624_jfoMGbJxwRi5AWGdPgXKSABMnzCQo9RN.jpg",
+          "filePath": "plasmic/netra/images/_360F222851624JfoMGbJxwRi5AwGdPgXksabMnzCQo9RNjpg.jpeg"
+        },
+        {
+          "id": "T-9yp7sT_ZicpB",
+          "name": "GoogleMapTA.jpg",
+          "filePath": "plasmic/netra/images/googleMapTAjpg.jpeg"
+        },
+        {
+          "id": "tasIsdrChWu0LA",
+          "name": "video.jpg 2",
+          "filePath": "plasmic/netra/images/videojpg2.jpeg"
+        },
+        {
+          "id": "AwK_yPgitL9Zv0",
+          "name": "Lanier_MP_9003_In_Office_Beauty_Shot_6-862x575.jpeg",
+          "filePath": "plasmic/netra/images/lanierMp9003InOfficeBeautyShot6862X575Jpeg.jpeg"
+        },
+        {
+          "id": "nC05l_dPan-asE",
+          "name": "techno-female-portrait-science-technology-concept-72928195.jpg 2",
+          "filePath": "plasmic/netra/images/technoFemalePortraitScienceTechnologyConcept72928195Jpg2.jpeg"
+        },
+        {
+          "id": "kBsvQoJiVS8CBS",
+          "name": "photo-1.jpg 2",
+          "filePath": "plasmic/netra/images/photo1Jpg2.jpeg"
+        },
+        {
+          "id": "ClM9FllO7konfX",
+          "name": "baer-main.jpg",
+          "filePath": "plasmic/netra/images/baerMainjpg.jpeg"
+        },
+        {
+          "id": "KCgANGfOoChihr",
+          "name": "Logo-plasmic-new.svg",
+          "filePath": "plasmic/netra/images/logoPlasmicNewsvg.svg"
+        },
+        {
+          "id": "E8O7G209USxCex",
+          "name": "girls-1828539_1920.jpg",
+          "filePath": "plasmic/netra/images/girls18285391920Jpg.jpeg"
+        },
+        {
+          "id": "g7rneH3MEsqQTI",
+          "name": "people-3104635_1920.jpg",
+          "filePath": "plasmic/netra/images/people31046351920Jpg.jpeg"
+        },
+        {
+          "id": "jEAqYRGa2aoOSb",
+          "name": "woman-3287956_1920.jpg",
+          "filePath": "plasmic/netra/images/woman32879561920Jpg.jpeg"
+        },
+        {
+          "id": "pFEBy9iWI0Oqpt",
+          "name": "shape-new 1 (Traced).svg",
+          "filePath": "plasmic/netra/images/shapeNew1Tracedsvg.svg"
+        },
+        {
+          "id": "yhVJyf0qhMYRvj",
+          "name": "girl-1848454_1920.jpg",
+          "filePath": "plasmic/netra/images/girl18484541920Jpg.jpeg"
+        },
+        {
+          "id": "TTd4LFp4bmPkTm",
+          "name": "girl-2366438_1920.jpg",
+          "filePath": "plasmic/netra/images/girl23664381920Jpg.jpeg"
+        },
+        {
+          "id": "G3nnHcZPMPbkjp",
+          "name": "woman-3116587_1920.jpg",
+          "filePath": "plasmic/netra/images/woman31165871920Jpg.jpeg"
+        },
+        {
+          "id": "-thdyxglMtVlhj",
+          "name": "girl-1775035_1920.jpg",
+          "filePath": "plasmic/netra/images/girl17750351920Jpg.jpeg"
+        },
+        {
+          "id": "ICgUiAg0bVKRNN",
+          "name": "portrait-3204843_1920.jpg",
+          "filePath": "plasmic/netra/images/portrait32048431920Jpg.jpeg"
+        },
+        {
+          "id": "ZcQ3Wy7nQO0WyM",
+          "name": "globe-trotter-1828079_1920.jpg",
+          "filePath": "plasmic/netra/images/globeTrotter18280791920Jpg.jpeg"
+        },
+        {
+          "id": "vZ2-lIQsYQhTMe",
+          "name": "depth-of-field-1868723_1920.jpg",
+          "filePath": "plasmic/netra/images/depthOfField18687231920Jpg.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "rjDmXLLiWNTyry",
+        "name": "Screen",
+        "projectId": "deKwkoK4pA1w3jYaAefVBE",
+        "contextFilePath": "plasmic/netra/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "gatsbyConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.182",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.182/dist/plasmic.schema.json"
+}
